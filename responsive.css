@@ -1,0 +1,79 @@
+@media screen and (max-width: 890px){
+  .bowls{
+    width: 600px;
+   }
+
+ .drinks{
+  width: 600px;
+}
+}
+
+@media screen  and (max-width: 650px){
+  .bowls{
+    width: 400px;
+  }
+  .drinks{
+    width: 400px;
+  }
+  .footer_card-2 h5{
+    font-size: 90%;
+    font-family: "Merriweather", serif;
+}
+.footer_card-2 p{
+  font-size: 70%;
+
+}
+input{
+  padding: 10px 12px;
+  width: 120px;
+  font-size: 40%;
+}
+
+button{
+  padding: 10px;
+  width: 100px;
+  font-size: 80%;
+}
+.footer_heading {
+  font-family: "Merriweather", serif;
+  font-size: 150%;
+  text-align: center;
+  margin-top: 120px;
+}
+
+}
+
+@media screen  and (max-width: 460px){
+  .grid_container{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .grid_card{
+    width: 300px;
+  }
+  .bowls{
+    width: 300px;
+   }
+
+ .drinks{
+  width: 300px;
+}
+.section h1{
+  font-size: 600%;
+}
+
+.bowls img{
+  width: 114px;
+  height: 114px;
+}
+.drinks img{
+  width: 114px;
+  height: 114px;
+}
+
+.footer_card img{
+  width: 114px;
+  height: 114px;
+}
+
+}

@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ font-family: "Merriweather", serif;
+ font-family: "Arizonia", cursive;
+ font-family: "Montserrat", sans-serif;
+ font-family: "Open Sans", sans-serif;
+}
+
+header{
+ background-color: #FFFFFF;
+ min-height: 10vh;
+}
+
+.bars{
+ text-align: center;
+ padding: 20px;
+}
+
+.section{
+  max-width: 100%;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://assets.nicepagecdn.com/11a8ddce/3790620/images/bowl-with-salmon-rice-fresh-vegetables-poke-top-view-1.jpg);
+}
+
+.section h1{
+  font-size: 1000%;
+  color: #FFFFFF;
+  font-family: "Arizonia", cursive;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.container{
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second_section{
+  background-color: #eafdeb;
+  max-width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.bowls{
+ width: 800px;
+ background-color: #FFFFFF;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 30px;
+ transform: translateY(-120px);
+ text-align: center;
+}
+
+.bowls img{
+  width: 214px;
+  height: 214px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bowls h2{
+  font-size: 240%;
+  font-family: "Merriweather", serif;
+  margin-top: 30px;
+}
+
+.menu_item{
+  margin-bottom: 20px;
+}
+
+.menu_item h3{
+  font-size: 110%;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.third_section{
+  background-color: #FFFFFF;
+  max-width: 100%;
+}
+
+.grid_container{
+  display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+  place-items: center;
+  margin-top: 60px;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.grid_card{
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/3790620/images/bowl-with-salmon-rice-fresh-vegetables-poke-top-view-1.jpg");
+  width: 460px;
+  height: 311px;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.grid_card:nth-child(2){
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/3790620/images/flat-lay-composition-hawaiian-poke-bowl_23-2148873887.jpeg");
+}
+
+.grid_card:nth-child(3){
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/3790620/images/buddha-bowl-rice-with-salmon-radish-red-cabbage-edamame-beans-sesame-seeds-concept-delicious-healthy-food-space-copying.jpg");
+}
+
+.grid_card:nth-child(4){
+background-image: url("https://assets.nicepagecdn.com/11a8ddce/3790620/images/food-bowl-chopsticks-high-angle_23-2149013675.jpeg");
+}
+
+.grid_card:nth-child(5){
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/3790620/images/top-view-arrangement-hawaiian-poke-bowl.jpg");
+}
+
+.grid_card:nth-child(6){
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/3790620/images/hawaiian-tuna-poke-bowl-flat-lay-photography.jpg");
+}
+
+
+.drinks{
+  width: 800px;
+  background-color: #eafdeb;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.drinks img{
+  width: 214px;
+  height: 214px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.drinks h2{
+  font-size: 240%;
+  font-family: "Merriweather", serif;
+  margin-top: 30px;
+}
+
+.footer_heading {
+  font-family: "Merriweather", serif;
+  font-size: 240%;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.footer_card{
+ padding: 30px;
+}
+
+.footer_card-2{
+ padding: 30px;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+
+.footer_card img{
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+}
+
+.footer_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer_card p{
+  font-size: 90%;
+  margin-top: 27px;
+}
+
+.footer_card-2 h5{
+  font-size: 120%;
+  font-family: "Merriweather", serif;
+}
+
+.footer_card-2 p{
+  font-size: 110%;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input{
+  display: flex;
+}
+
+input{
+  padding: 10px 12px;
+  width: 372px;
+  border: none;
+  background-color: #F2F2F2;
+  height: 45px;
+}
+
+button{
+  padding: 10px 30px;
+  width: 138px;
+  border: none;
+  background-color: #2ccc38;
+  color: #FFFFFF;
+  font-family: "Merriweather", serif;
+  letter-spacing: 2px;
+  font-size: 80%;
+  cursor: pointer;
+  height: 45px;
+}
